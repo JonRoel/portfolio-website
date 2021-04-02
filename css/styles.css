@@ -202,7 +202,6 @@ a:active {
 button,
 .button {
   border: none;
-  display: inline-block;
   font-family: inherit;
   background-color: var(--primary-red);
   color: var(--main-font-color) !important;
