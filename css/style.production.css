@@ -75,7 +75,7 @@ nav ul {
   display:flex;
   width:100%;
   padding:20px;
-  max-width:800px;
+  max-width:1280px;
   margin: 0 auto;
 }
 
@@ -219,12 +219,11 @@ a:active {
 
 button {
   border: none;
-  display: inline-block;
   font-family: inherit;
   background-color: #ed4441;
   color: #fff !important;
   text-decoration: none;
-  float:right;
+  float: right;
   padding: 10px 45px;
   border-radius: 0px;
   -webkit-transition: 0.2s opacity;
@@ -234,12 +233,11 @@ button {
 
 .button {
   border: none;
-  display: inline-block;
   font-family: inherit;
   background-color: #ed4441;
   color: #fff !important;
   text-decoration: none;
-  float:right;
+  float: right;
   padding: 10px 45px;
   border-radius: 0px;
   -webkit-transition: 0.2s opacity;
