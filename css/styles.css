@@ -115,7 +115,10 @@ nav ul {
 /* Footer Specific Styles */
 
 .page-footer {
-  clear:both;
+  text-align:center;
+  clear: both;
+  display: flex;
+  flex-direction: column;
 }
 
 /* End Footer Specific Styles */
@@ -150,12 +153,7 @@ a:active {
   margin-right:40px;
 }
 
-.page-footer {
-  text-align:center;
-  clear: both;
-  display: flex;
-  flex-direction: column;
-}
+
 
 /* Grid Fallback */
 
