@@ -2,8 +2,9 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Jonathon Roeland's Portfolio</title>
+        <title>About Jonathon Roeland</title>
         <link rel="shortcut icon" href="./img/favicon-64x64.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100;1,400&display=swap" rel="stylesheet">
@@ -12,6 +13,27 @@
     </head>
     <body>
     <header class="page-header">
+      <!-- Mobile Header Meanu -->
+      <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+              <div class="topnav">
+                 <a href="#home" class="active"><img class="page-header__logo-mobile" src="img/JonathonRoelandLogo.png" alt="Logo for Jonathon Roeland"></a>
+                 <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="about.html" class="active">About Me</a>
+                    <a href="work.html">My Work</a>
+                    <a href="contact.html">Contact</a>
+                 </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+              </a>
+              </div>
+     
+        <!-- End smartphone / tablet look -->
+           </div>
+        <!-- End Mobile Header Menu-->
+  
         
           <img class="page-header__logo" src="img/JonathonRoelandLogo.png" alt="Logo for Jonathon Roeland">
           <nav class="main-navigation page-header__menu">
@@ -37,11 +59,15 @@
         <div>
             <h1>About Me</h1>
             <p>My name is Jonathon Roeland. I am a <span>web</span> developer from Canada. My background in business and marketing exposed me to the world of web design and development. When I was hand coding HTML email newsletters in my first job, I developed a love for the craft. I am hoping to make a transition into full time web development.</p>
-            <a href="/work.html">Check out some of my code</a> <a href="https://www.linkedin.com/in/jonathon-roeland-a46627126/" target="_blank" class="button" download>Check out my LinkedIn Profile</a>
-        </div>
+            <div class="about-me-links">
+            <p><a href="/work.html">Check out some of my code</a></p>
+            <p><a href="https://www.linkedin.com/in/jonathon-roeland-a46627126/" target="_blank" class="button" download>Check out my LinkedIn Profile</a></p>
+            </div>
+        
+          </div>
 
 
-        <div>
+        <div class="about-image">
           <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -20292,27 +20318,27 @@
           <tbody>
             <tr>
               <td>HTML</td>
-              <td>2</td>
+              <td style="text-align:center">2</td>
               <td>Intermediate</td>
             </tr>
             <tr>
               <td>CSS</td>
-              <td>2</td>
+              <td style="text-align:center">2</td>
               <td>Intermediate</td>
             </tr>
             <tr>
               <td>JavaScript</td>
-              <td>1</td>
+              <td style="text-align:center">1</td>
               <td>Total Beginner</td>
             </tr>
             <tr>
               <td>Photoshop</td>
-              <td>2</td>
+              <td style="text-align:center">2</td>
               <td>Intermediate</td>
             </tr>
             <tr>
               <td>Wordpress</td>
-              <td>3</td>
+              <td style="text-align:center">3</td>
               <td>Intermediate</td>
             </tr>
           </tbody>
@@ -20327,5 +20353,15 @@
           <img src="img/linkedin-light.svg" alt="LinkedIn">
             </div>
       </footer>
+      <script>
+         function myFunction() {
+           var x = document.getElementById("myLinks");
+           if (x.style.display === "block") {
+             x.style.display = "none";
+           } else {
+             x.style.display = "block";
+           }
+         }
+         </script>
       </body>
 </html>
