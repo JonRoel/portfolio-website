@@ -496,6 +496,111 @@ a:active {
   h1 {
     font-size: 22px;
   }
+  .contact-main {
+    width: 100%;
+    padding: 0 35px;
+    display: block;
+  }
+  
+  .contact-info {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .contact-form-container {
+    width: 100%;
+    float: none;
+  }
+  #contact-form button {
+    width:100%;
+    float: none;
+  }
+  .my-work-container{
+    padding:15px 15px;
+  }
+  .about-me-content {
+    padding: 0 15px;
+  }
+  .about-me-links {
+    text-align: center;
+  }
+  .button {
+    float:none;
+  }
+  .about-image {
+    text-align: center;
+  }
+  .profile {
+    padding: 0 15px;
+    width:100%;
+    padding:0 15px;
+    display: box;
+    flex-direction:column;
+    min-height:500px;
+  }
+  .profile__portrait {
+    display:block;
+    float:none;
+    margin: 0 auto;
+  }
+  .profile-image-wrapper {
+    display:block;
+    width:100%;
+    margin-top: 25px;
+  }
+  .profile__text {
+    display: block;
+    margin-top:25px;
+    text-align:center;
+  }
+  /*  Mobile manu */
+  .mobile-container {
+    width:100%;
+    margin: 0 auto;
+    color: white;
+    display: block;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    text-align: right;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    color:#ed4441;
+    right: 0;
+    top: 9px;
+    font-size:30px;
+  }
+  
+  .topnav a:hover {
+  }
+  
+  .active {
+    color: #ed4441 !important;
+  }
+
+  .page-header__menu {
+    display: none;
+  }
+  .page-header__logo {
+    display: none;
+  }
   
 }
 @media all and (max-width: 750px) {
